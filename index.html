@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bino</title>
     <link type="text/css" rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,600&family=Source+Sans+Pro:wght@400;600;700&display=swap"
@@ -14,7 +14,7 @@
           integrity="sha384-wG7JbYjXVhle8f17qIp6KJaO/5PsPzOrT76RgvdRGLHj0yXZZ3jg98yb0GNRv1+M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/fontawesome.css"
           integrity="sha384-O6duc3QftgMWW3awKiGYswymy288kVFZgGWC/4YCl48Y0codWJRgs8DA0N4dX/zx" crossorigin="anonymous">
-    <link href="//css/main.css" rel="stylesheet">
+    <link href="./main.css" rel="stylesheet">
 </head>
 <body class="body">
 <header class="main-header">
@@ -39,7 +39,7 @@
     </div>
 </header>
 <main>
-    <section class="primary-screen" id="primary-screen" style="background-image: url('./img/primary.jpg')">
+    <section class="primary-screen" id="primary-screen">
         <div class="primary-screen__container container">
             <div class="primary-screen__swiper-container swiper-container">
                 <div class="swiper-wrapper">
@@ -69,62 +69,60 @@
                 <div class="swiper-button-next swiper-button-next--primary-slider"></div>
                 <div class="swiper-button-prev swiper-button-prev--primary-slider"></div>
             </div>
-            <div class="arrow-down">
-                <a class="arrow-down__link" href="#advantages">
+                <a class="arrow-down" href="#advantages">
                     <svg class="arrow-down__icon">
                         <use xlink:href="./img/sprite.svg#anchor"></use>
                     </svg>
                 </a>
-            </div>
         </div>
     </section>
     <section class="section advantages" id="advantages">
         <div class="advantages__container container">
-            <div class="dynamic-block">
-                <div class="dynamic-block__decoration">
-                    <svg class="dynamic-block__icon">
+            <div class="advantages-block">
+                <div class="advantages-block__decoration">
+                    <svg class="advantages-block__icon">
                         <use xlink:href="./img/sprite.svg#glasses"></use>
                     </svg>
                 </div>
-                <h3 class="dynamic-block__title">Sleek design</h3>
-                <p class="dynamic-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
+                <h3 class="advantages-block__title">Sleek design</h3>
+                <p class="advantages-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                     Lorem Ipsum has been the industry.</p>
             </div>
-            <div class="dynamic-block">
-                <div class="dynamic-block__decoration">
-                    <svg class="dynamic-block__icon">
+            <div class="advantages-block">
+                <div class="advantages-block__decoration">
+                    <svg class="advantages-block__icon">
                         <use xlink:href="./img/sprite.svg#heart"></use>
                     </svg>
                 </div>
-                <h3 class="dynamic-block__title">Clean code</h3>
-                <p class="dynamic-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
+                <h3 class="advantages-block__title">Clean code</h3>
+                <p class="advantages-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                     Lorem Ipsum has been the industry.</p>
             </div>
-            <div class="dynamic-block">
-                <div class="dynamic-block__decoration">
-                    <svg class="dynamic-block__icon">
+            <div class="advantages-block">
+                <div class="advantages-block__decoration">
+                    <svg class="advantages-block__icon">
                         <use xlink:href="./img/sprite.svg#light-bulb"></use>
                     </svg>
                 </div>
-                <h3 class="dynamic-block__title">Creative ideas</h3>
-                <p class="dynamic-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
+                <h3 class="advantages-block__title">Creative ideas</h3>
+                <p class="advantages-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                     Lorem Ipsum has been the industry.</p>
             </div>
-            <div class="dynamic-block">
-                <div class="dynamic-block__decoration">
-                    <svg class="dynamic-block__icon">
+            <div class="advantages-block">
+                <div class="advantages-block__decoration">
+                    <svg class="advantages-block__icon">
                         <use xlink:href="./img/sprite.svg#chat"></use>
                     </svg>
                 </div>
-                <h3 class="dynamic-block__title">Free support</h3>
-                <p class="dynamic-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
+                <h3 class="advantages-block__title">Free support</h3>
+                <p class="advantages-block__text">Lorem Ipsum is simply dummy text of the printing and typesetting let.
                     Lorem Ipsum has been the industry.</p>
             </div>
         </div>
     </section>
     <section class="section history" id="history">
         <div class="history__container container">
-            <img class="history__img" src="/images/monitor.png?0cd6216f39a04b589dbff6c638e3b928" alt="monitor">
+            <img class="history__img" src="./img/monitor.png?0cd6216f39a04b589dbff6c638e3b928" alt="monitor">
             <div class="article">
                 <h2 class="title">Our history</h2>
                 <p class="article__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -353,7 +351,7 @@
         <div class="portfolio__box">
             <div class="portfolio__sub-box web-design active-tab">
                 <div class="project-card">
-                    <img src="/images/project-1.jpg?98ddb44a16a383945e0e550b2a13ef68" alt="" class="project-card__img">
+                    <img src="./img/project-1.jpg?98ddb44a16a383945e0e550b2a13ef68" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -363,7 +361,7 @@
             </div>
             <div class="portfolio__sub-box print-design active-tab">
                 <div class="project-card">
-                    <img src="/images/project-2.jpg?ca07843e12e02e94398d4534eae4bf93" alt="" class="project-card__img">
+                    <img src="./img/project-2.jpg?ca07843e12e02e94398d4534eae4bf93" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -373,7 +371,7 @@
             </div>
             <div class="portfolio__sub-box animation active-tab">
                 <div class="project-card">
-                    <img src="/images/project-3.jpg?fbee4f6fabd6c0b394c97a75e6d93d86" alt="" class="project-card__img">
+                    <img src="./img/project-3.jpg?fbee4f6fabd6c0b394c97a75e6d93d86" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -383,7 +381,7 @@
             </div>
             <div class="portfolio__sub-box web-design active-tab">
                 <div class="project-card">
-                    <img src="/images/project-4.jpg?79faa42c236fc5953bfc77c52d81555a" alt="" class="project-card__img">
+                    <img src="./img/project-4.jpg?79faa42c236fc5953bfc77c52d81555a" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -393,7 +391,7 @@
             </div>
             <div class="portfolio__sub-box art active-tab">
                 <div class="project-card">
-                    <img src="/images/project-5.jpg?d6afedf7343a76029fb2e3b3a9eff4d7" alt="" class="project-card__img">
+                    <img src="./img/project-5.jpg?d6afedf7343a76029fb2e3b3a9eff4d7" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -403,7 +401,7 @@
             </div>
             <div class="portfolio__sub-box photography active-tab">
                 <div class="project-card">
-                    <img src="/images/project-6.jpg?7b8cdf6d8a0a9a81e46a61fcae526602" alt="" class="project-card__img">
+                    <img src="./img/project-6.jpg?7b8cdf6d8a0a9a81e46a61fcae526602" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -413,7 +411,7 @@
             </div>
             <div class="portfolio__sub-box animation active-tab">
                 <div class="project-card">
-                    <img src="/images/project-7.jpg?46410d551fca4c219467a6e93d207f5c" alt="" class="project-card__img">
+                    <img src="./img/project-7.jpg?46410d551fca4c219467a6e93d207f5c" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -423,7 +421,7 @@
             </div>
             <div class="portfolio__sub-box video active-tab">
                 <div class="project-card">
-                    <img src="/images/project-8.jpg?095efdfc74c69a719ac22df444a258fd" alt="" class="project-card__img">
+                    <img src="./img/project-8.jpg?095efdfc74c69a719ac22df444a258fd" alt="" class="project-card__img">
                     <div class="project-card__box">
                         <a href="#" class="project-card__link"></a>
                         <h5 class="project-card__title">t-shirt design</h5>
@@ -506,11 +504,11 @@
                         </div>
                     </div>
                 </div>
-                <img class="case-study__image" src="/images/case-study-1.jpg?aca8fcad6f92e3d3a60810ab96dfbabc" alt="">
+                <img class="case-study__image" src="./img/case-study-1.jpg?aca8fcad6f92e3d3a60810ab96dfbabc" alt="">
             </div>
         </div>
     </section>
-    <section class="section counter" id="counter" style="background-image: url('./img/background-counter.jpg')">
+    <section class="section counter" id="counter">
         <div class="counter__container container">
             <div class="counter__score-mark score-mark">
                 <div class="score-mark__circle">
@@ -628,7 +626,7 @@
             </div>
         </div>
     </section>
-    <section class="section team" id="team" style="background-image: url('./img/team-background.jpg')">
+    <section class="section team" id="team">
         <svg class="background-shape">
             <use xlink:href="./img/sprite.svg#background-shape"></use>
         </svg>
@@ -645,7 +643,7 @@
             <div class="team__members">
                 <div class="member-box team__box">
                     <a href="#">
-                        <img src="/images/team-1.jpg?38267fc041a99f284466d739760530a9" alt="" class="member-box__photo">
+                        <img src="./img/team-1.jpg?38267fc041a99f284466d739760530a9" alt="" class="member-box__photo">
                     </a>
                     <div class="member-box__description">
                         <p class="member-box__name">Marissa Mayer</p>
@@ -654,7 +652,7 @@
                 </div>
                 <div class="member-box team__box">
                     <a href="#">
-                        <img src="/images/team-2.jpg?ea36f44b87318af624b104d5a05daf8b" alt="" class="member-box__photo">
+                        <img src="./img/team-2.jpg?ea36f44b87318af624b104d5a05daf8b" alt="" class="member-box__photo">
                     </a>
                     <div class="member-box__description">
                         <p class="member-box__name">Brendan Icke</p>
@@ -663,7 +661,7 @@
                 </div>
                 <div class="member-box team__box">
                     <a class="member-box__photo-link" href="#">
-                        <img src="/images/team-3.jpg?9fb7d79650861a9cde7c6e1b0b98e5fb" alt="" class="member-box__photo">
+                        <img src="./img/team-3.jpg?9fb7d79650861a9cde7c6e1b0b98e5fb" alt="" class="member-box__photo">
                     </a>
                     <div class="member-box__description">
                         <p class="member-box__name">Adele Goldberg</p>
@@ -672,7 +670,7 @@
                 </div>
                 <div class="member-box team__box">
                     <a href="#">
-                        <img src="/images/team-4.jpg?c3cacce6b4d5d5c9d00b8704825439f1" alt="" class="member-box__photo">
+                        <img src="./img/team-4.jpg?c3cacce6b4d5d5c9d00b8704825439f1" alt="" class="member-box__photo">
                     </a>
                     <div class="member-box__description">
                         <p class="member-box__name">Helen Hancock</p>
@@ -681,7 +679,7 @@
                 </div>
                 <div class="member-box team__box">
                     <a href="#">
-                        <img src="/images/team-5.jpg?38267fc041a99f284466d739760530a9" alt="" class="member-box__photo">
+                        <img src="./img/team-5.jpg?38267fc041a99f284466d739760530a9" alt="" class="member-box__photo">
                     </a>
                     <div class="member-box__description">
                         <p class="member-box__name">Mary Lee Woods</p>
@@ -705,80 +703,70 @@
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-1.svg?c3ed8e4a9a6b1c983de5664e9320b414"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-1.svg?c3ed8e4a9a6b1c983de5664e9320b414" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-2.svg?0691841db9c98507dfbb1aaebeeaef3c"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-2.svg?0691841db9c98507dfbb1aaebeeaef3c" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-3.svg?93bafab554032e417ad6d6a2071dd9dc"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-3.svg?93bafab554032e417ad6d6a2071dd9dc" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-4.svg?e0c6cbaf8f78c0625b80bf2f762fc9dc"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-4.svg?e0c6cbaf8f78c0625b80bf2f762fc9dc" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-5.svg?2f3885da1448d886a40252f7b6def1a4"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-5.svg?2f3885da1448d886a40252f7b6def1a4" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-6.svg?9ff402df19e3bbe77b3665c1e5a2df51"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-6.svg?9ff402df19e3bbe77b3665c1e5a2df51" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-7.svg?e732b9d9d01a43434b572f8f437edca2"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-7.svg?e732b9d9d01a43434b572f8f437edca2" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-8.svg?ce7bc82e2a9e5a35e34c49f49c0e7fe6"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-8.svg?ce7bc82e2a9e5a35e34c49f49c0e7fe6" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-9.svg?24973aa26ab888226bb76c3076178f2c"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-9.svg?24973aa26ab888226bb76c3076178f2c" alt="company">
                         </a>
                     </div>
                 </div>
                 <div class="collaboration__link">
                     <div class="company-card">
                         <a href="#" class="company-card__link">
-                            <img class="company-card__img" src="/images/company-10.svg?f9084a87e48a9d1619c13fa467f542a3"
-                                 alt="company">
+                            <img class="company-card__img" src="./img/company-10.svg?f9084a87e48a9d1619c13fa467f542a3" alt="company">
                         </a>
                     </div>
                 </div>
@@ -801,8 +789,7 @@
             <div class="blog__box">
                 <div class="blog-card">
                     <a class="blog-card__img-link">
-                        <img class="blog-card__img" src="/images/blog-1.jpg?5473475394114a0f8a3f81f260e1b855"
-                             alt="cofe">
+                        <img class="blog-card__img" src="./img/blog-1.jpg?5473475394114a0f8a3f81f260e1b855" alt="cofe">
                     </a>
                     <div class="blog-card__description">
                         <span class="blog-card__sub-title">art / t-shirt</span>
@@ -819,8 +806,7 @@
             <div class="blog__box">
                 <div class="blog-card">
                     <a class="blog-card__img-link">
-                        <img class="blog-card__img" src="/images/blog-2.jpg?5a5be6350f16cc0cfd61f32721c688e8"
-                             alt="clock">
+                        <img class="blog-card__img" src="./img/blog-2.jpg?5a5be6350f16cc0cfd61f32721c688e8" alt="clock">
                     </a>
                     <div class="blog-card__description">
                         <span class="blog-card__sub-title">art / t-shirt</span>
@@ -837,8 +823,7 @@
             <div class="blog__box">
                 <div class="blog-card blog-card--revers">
                     <a class="blog-card__img-link">
-                        <img class="blog-card__img" src="/images/blog-3.jpg?2aeb31c79b0edc136257cfbf700459fc"
-                             alt="road">
+                        <img class="blog-card__img" src="./img/blog-3.jpg?2aeb31c79b0edc136257cfbf700459fc" alt="road">
                     </a>
                     <div class="blog-card__description">
                         <span class="blog-card__sub-title">art / t-shirt</span>
@@ -855,7 +840,7 @@
             <div class="blog__box">
                 <div class="blog-card blog-card--revers">
                     <a class="blog-card__img-link">
-                        <img class="blog-card__img" src="/images/blog-4.jpg?161f86a9d97ec62a7cfd0161d5dc69f6" alt="car">
+                        <img class="blog-card__img" src="./img/blog-4.jpg?161f86a9d97ec62a7cfd0161d5dc69f6" alt="car">
                     </a>
                     <div class="blog-card__description">
                         <span class="blog-card__sub-title">art / t-shirt</span>
@@ -996,6 +981,6 @@
         <use xlink:href="./img/sprite.svg#angle-up"></use>
     </svg>
 </a>
-<script src="//js/index.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
